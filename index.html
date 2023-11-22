@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Đồ Trang Sức Thủ Công</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Form Đồ Trang Sức Thủ Công</h1>
+  <form id="jewelryForm">
+    <label for="productName">Tên sản phẩm:</label>
+    <input type="text" id="productName" name="productName" required><br><br>
+    
+    <label for="description">Mô tả:</label><br>
+    <textarea id="description" name="description" rows="4" cols="50"></textarea><br><br>
+    
+    <label for="price">Giá:</label>
+    <input type="number" id="price" name="price" required><br><br>
+    
+    <label for="image">Ảnh sản phẩm:</label>
+    <input type="file" id="image" name="image"><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
